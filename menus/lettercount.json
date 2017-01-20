@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle lettercount",
+        "command": "lettercount:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "lettercount",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "lettercount:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
